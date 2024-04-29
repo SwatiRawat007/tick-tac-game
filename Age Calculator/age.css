@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+}
+
+.age-container{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 rgba(0,0,0,0.5);
+
+}
+
+.box{
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(116, 109, 109);
+    color: blue;
+}
+
+.DOB label,input{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    margin-left: 70px;
+
+}
+.DOB input{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    margin-left: 70px;
+
+}
+
+.current label{
+    
+    
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    display: block;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn1{
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+    font-size: 1.2rem;
+
+
+}
+.result{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px;
+    font-weight: 700;
+}
